@@ -1,0 +1,144 @@
+@media screen and (max-width:991px){
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }  
+    
+    
+
+    .nav-links{
+        display: none;
+    }
+    
+    .example-area {
+        flex-wrap: wrap;
+        
+    }
+    
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        
+        
+    }
+    
+    #side_icon{
+        display: initial;
+    }
+    .hamburger .line{
+        width: 30px;
+       
+       
+        border: 4px solid black;
+        margin: 4px 0;
+        
+    }
+    
+    .line{
+        background: black;
+        height: 1px;
+    }
+    
+    .nav-links{
+        position: absolute;
+        top: 200px;
+        height: 400px;
+        width: 100%;
+       
+        background-color: black;
+        display: block;
+        left: 0;
+        opacity: 0;
+        }
+    
+    
+    .links{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .hover-links{
+        margin-top: 25px;
+        color: white;
+    }
+    
+    .example-card{
+        width: 48%;
+        margin: 5px;
+    }
+}
+
+
+@media screen and (max-width:570px){
+   .example-area {
+        flex-wrap: wrap;
+            gap:20px;
+       justify-content: center;
+    }
+    
+    .example-section{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:700px){
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+    }
+    
+    .big-feature-container{
+        flex-direction: column;
+    }
+    .second_class{
+        flex-direction: column-reverse;
+        
+    }
+    
+    .feature-desc{
+        text-align: center;
+    }
+    
+    
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap:40px;
+    }
+    
+    .subfooter-container{
+        text-align: center;
+       
+    }
+    
+    
+    h1{
+    font-size: 2rem;
+    
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+
+h3{
+    font-size: 1.5rem;
+}
+
+
+p{
+   font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    
+}
+    
+    
+    
+}
